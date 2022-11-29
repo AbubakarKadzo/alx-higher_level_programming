@@ -1,7 +1,9 @@
-#!/usr/bin/env python3
-print_last_digit = __import__('9-print_last_digit').print_last_digit
+#!/usr/bin/python3
 
-print_last_digit(98)
-print_last_digit(0)
-r = print_last_digit(-1024)
-print(r)
+def uppercase(str):
+    """Print a string in uppercase."""
+    for c in str:
+        if ord(c) >= 97 and ord(c) <= 122:
+            c = chr(ord(c) - 32)
+        print("{}".format(c), end="")
+    print("")
