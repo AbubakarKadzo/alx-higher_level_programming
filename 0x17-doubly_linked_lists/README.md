@@ -47,4 +47,4 @@ What you should learn from this project:
 ---
 
 ## Author
-* **Pilar Pinto** - [akadzo](https://github.com/AbubakarKadzo)
+* **Abubakar Kadzo** - [akadzo](https://github.com/AbubakarKadzo)
