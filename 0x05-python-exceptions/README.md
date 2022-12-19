@@ -95,5 +95,5 @@ Prototypes for functions written in this project:
   * [103-python.c](./103-python.c): C functions that print basic information
   about Python lists, bytes, and float objects.
   
-  * **author
-  * [AbubakarKadzo](https://github.com/AbubakarKadzo/alx-higher_level_programming/0x05-python-exceptions)
+  ##author
+  * [AbubakarKadzo](https://github.com/AbubakarKadzo)
