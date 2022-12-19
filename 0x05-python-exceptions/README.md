@@ -1,7 +1,5 @@
 ## 0x05-python-exceptions
 
-## Tests :heavy_check_mark:
-
 ## Function Prototypes 
 Prototypes for functions written in this project:
 
