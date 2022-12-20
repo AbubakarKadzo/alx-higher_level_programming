@@ -1,9 +1,23 @@
 #!/usr/bin/python3
+# 101-safe_function.py
+
 import sys
-def safe_print_integer_err(value):
+
+
+def safe_function(fct, *args):
+    """Executes a function safely.
+
+    Args:
+        fct: The function to execute.
+        args: Arguments for fct.
+
+    Returns:
+        If an error occurs - None.
+        Otherwise - the result of the call to fct.
+    """
     try:
-        print("{:d}".format(value))
-        return True
-    except Exception as e:
-        print("Exception: " + e.args[0], file=sys.stderr)
-        return False
+        result = fct(*args)
+        return (result)
+    except:
+        print("Exception: {}".format(sys.exc_info()[1]), file=sys.stderr)
+        return (None)
