@@ -40,4 +40,4 @@ How to find edge cases
 ---
 
 ## Author
-* **Abubakar Kadzo** - [AbubakarKadzo]https://github.com/AbubakarKadzo)
+* **Abubakar Kadzo** - [AbubakarKadzo](https://github.com/AbubakarKadzo)
