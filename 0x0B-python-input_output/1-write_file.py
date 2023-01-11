@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""Write a function that returns the number
-of lines of a text file"""
+"""The module defines a file-writing function."""
 
 
-def number_of_lines(filename=""):
-    line_count = 0
-    with open(filename, encoding='utf-8') as f:
-        for line in f:
-            line_count += 1
-    return line_count
+def write_file(filename="", text=""):
+    """Writes a string to a UTF8 text file
+    """
+    with open(filename, "w", encoding="utf-8") as f:
+        return f.write(text)
